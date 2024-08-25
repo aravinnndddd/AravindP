@@ -298,19 +298,9 @@ footer{
 .icons:hover{
   filter: invert(0) sepia(1) saturate(20) hue-rotate(93.6deg) brightness(1.2);
 }
-@media(max-width:500px){/*-------Footer---------*/
-  f
-  .footer-headind{
-    padding-top: 10px;
-    font-family:Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color:rgb(255, 255, 255);
-  }
+@media(max-width:500px){
+  /*-------Footer---------*/
+  
   .social-icon{
     display: flex;
     justify-content: center;
