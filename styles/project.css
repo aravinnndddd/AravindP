@@ -1,0 +1,177 @@
+/* ------Projects------- */
+
+@keyframes appearOpacity{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.project1{
+  animation: appearX ease;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+.project2{
+  animation: appearXrt ease;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+.project-list img{
+  animation: rotate ease;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+div#project h1,div#project h2{
+  animation: appearY ease;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+}
+div#project a{
+  animation: appearYbtom ease;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%
+}
+.project-list{
+  
+  margin: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#project{
+  padding-top: 200px;
+  border-top: solid #252525 15px ;
+  background-color: #151515de;
+  height: 90vh;
+  padding-top: 100px;
+
+}
+div.project-container h1{
+  filter:drop-shadow(4px 0px 10px rgb(146, 143, 143));
+  font-family: heading;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: rgb(255, 255, 255);
+
+}
+.project1 img,.project2 img{
+  filter:drop-shadow(4px 0px 10px rgb(133, 4, 133));
+  width: 140px;
+
+  height: 170px;
+  border-radius: 20px;
+}
+.project1 h2,.project2 h2{
+  color: black;
+  filter:drop-shadow(4px 0px 10px rgb(0, 0, 0));
+  font-family: Para;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.project1 a,.project2 a{
+  display: inline-flex;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+}
+.project1,.project2{
+
+  margin-left: 10px;
+  height: 250px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.842);
+  backdrop-filter: blur(1.5rem);
+  filter:drop-shadow(4px 0px 10px rgb(179, 179, 179));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+@media(max-width:500px){
+  /* ------Projects------- */
+  
+  @keyframes appearOpacity{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .project-list{
+    
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #project{
+    padding-top: 200px;
+    border-top: solid #252525 15px ;
+    background-color: #151515de;
+    height: 90vh;
+    padding-top: 100px;
+  
+  }
+  div.project-container h1{
+    filter:drop-shadow(4px 0px 10px rgb(146, 143, 143));
+    font-family: heading;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    color: rgb(255, 255, 255);
+  
+  }
+  .project1 img,.project2 img{
+    filter:drop-shadow(4px 0px 10px rgb(133, 4, 133));
+    width: 140px;
+  
+    height: 170px;
+    border-radius: 20px;
+  }
+  .project1 h2,.project2 h2{
+    color: black;
+    filter:drop-shadow(4px 0px 10px rgb(0, 0, 0));
+   
+    font-family: Para;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .project1 a,.project2 a{
+ 
+    display: inline-flex;
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+  }
+  .project1,.project2{
+  
+    margin-left: 10px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.842);
+    backdrop-filter: blur(1.5rem);
+    filter:drop-shadow(4px 0px 10px rgb(179, 179, 179));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  }

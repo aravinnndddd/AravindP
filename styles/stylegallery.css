@@ -1,0 +1,271 @@
+/* body */
+.body1{
+  background-image: url(/assets/Images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 0;
+  overflow: hidden;
+}
+/* the slider container */
+.slider{
+  width: 100%;
+  height: 600px;
+}
+.slides{
+  border-radius: 5%;
+  margin-top: 60px;
+  height: 700px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(109, 110, 116, 0.459);
+  backdrop-filter: blur(10px);
+  filter:drop-shadow(4px 0px 10px black);
+}
+.slide{
+  display: none;
+}
+.slides img.ls{
+  width: max-content;
+  height: 250px;
+  padding-top: 13%;
+  
+}
+.slider img{
+  padding-top:50px ;
+  width:max-content;
+  height: 400px;
+  animation: showingImg 1s  ease-in-out ;
+}
+
+/* animation */
+@keyframes showingImg{
+  0%{
+    opacity: 0;
+
+  }
+
+  100%{
+    opacity: 1;
+
+  }
+
+}
+img.displaySlide{
+  padding-top: auto;
+  padding-bottom: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/* button */
+.slider button{
+  top: 580px;
+  width:80px ;
+  height: 40px;
+  background-color: rgba(72, 79, 182, 0.356);
+  position: absolute;
+  border-radius: 20px;
+  transform: translateY(-50%);
+  border: none;
+  transition: 0.5s ease;
+
+}
+.slider button:hover{
+  background-color: rgba(149, 154, 226, 0.356);
+  cursor: pointer;
+}
+.prev{
+
+  margin-top: 0px;
+  padding-left: 29px;
+  left:30%;
+}
+.next{
+  margin-top: 0px;
+  padding-left: 29px;
+  right: 30%;
+}
+#Work{
+  margin-top: 100px;
+}
+.heading{
+  font-size: 30px;
+}
+.work p{
+  text-align: center;
+  color: beige;
+  font-style: italic;
+  margin-top: 120pxpx;
+  margin-bottom: 3px;
+}
+@media(max-width:500px){
+  .body1{
+    overflow-x: hidden;
+    height: 100%;;
+  }
+  .slides{
+    height: 400px;
+    width: 300px;
+  }
+  .slides img.ls{
+    width: max-content;
+    height: 200px;
+    padding-top: 33%;
+    
+  }
+  .slider img{
+    padding-top:50px ;
+    width:max-content;
+    height: 300px;
+   
+  }
+  .slider button{
+    top: 530px;
+  }
+
+  .prev{
+    margin-top: 0px;
+    padding-left: 29px;
+    left:20%;
+  }
+  .next{
+    margin-top: 0px;
+    padding-left: 29px;
+    right: 20%;
+  }
+.body1{
+  overflow: hidden;
+}
+/* the slider container */
+.slider{
+  width: 100%;
+  height: 600px;
+}
+.slides{
+  border-radius: 5%;
+  margin-top: 30px;
+  height: 500px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(102, 109, 133, 0.459);
+  backdrop-filter: blur(10px);
+}
+.slide{
+  display: none;
+}
+.slides img.ls{
+  width: max-content;
+  height: 250px;
+  padding-top: 13%;
+  
+}
+.slider img{
+  padding-top:50px ;
+  width:max-content;
+  height: 400px;
+  animation: showingImg 1s  ease-in-out ;
+}
+
+/* animation */
+@keyframes showingImg{
+  0%{
+    opacity: 0;
+
+  }
+
+  100%{
+    opacity: 1;
+
+  }
+
+}
+img.displaySlide{
+  padding-top: auto;
+  padding-bottom: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/* button */
+.slider button{
+  top: 580px;
+  width:80px ;
+  height: 40px;
+  background-color: rgba(72, 79, 182, 0.356);
+  position: absolute;
+  border-radius: 20px;
+  transform: translateY(-50%);
+  border: none;
+  transition: 0.5s ease;
+
+}
+.slider button:hover{
+  background-color: rgba(149, 154, 226, 0.356);
+  cursor: pointer;
+}
+.prev{
+
+  margin-top: 0px;
+  padding-left: 29px;
+  left:30%;
+}
+.next{
+  margin-top: 0px;
+  padding-left: 29px;
+  right: 30%;
+}
+#Work{
+  margin-top: 100px;
+}
+.heading{
+  font-size: 30px;
+}
+.work p{
+  text-align: center;
+  color: beige;
+  font-style: italic;
+  margin-top: 120pxpx;
+  margin-bottom: 3px;
+}
+@media(max-width:500px){
+  .body1{
+    overflow-x: hidden;
+    height: 100%;;
+  }
+  .slides{
+    height: 400px;
+    width: 300px;
+  }
+  .slides img.ls{
+    width: max-content;
+    height: 200px;
+    padding-top: 33%;
+    
+  }
+  .slider img{
+    padding-top:50px ;
+    width:max-content;
+    height: 300px;
+   
+  }
+  .slider button{
+    top: 530px;
+  }
+
+  .prev{
+    margin-top: 0px;
+    padding-left: 29px;
+    left:20%;
+  }
+  .next{
+    margin-top: 0px;
+    padding-left: 29px;
+    right: 20%;
+  }
+}
+}
