@@ -1,16 +1,16 @@
 @font-face{ 
   font-family: alba;
-  src:url(/assets/Font/alba/ALBA____.TTF);}
+  src:url(assets/Font/alba/ALBA____.TTF);}
   @font-face{
   font-family: navfont;
-  src:url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);}
+  src:url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);}
   @font-face {
     font-family: Para;
-    src: url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);
+    src: url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);
   }
   @font-face {
     font-family: heading;
-    src: url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Bold-trial.ttf);
+    src: url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Bold-trial.ttf);
   }
 
 *{
@@ -19,7 +19,7 @@
 }
 body{
     margin: 0px 0px;
-    background-image: url(/assets/Images/bg.jpg);
+    background-image: url(assets/Images/bg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     overflow-y: scroll;
