@@ -266,7 +266,16 @@ nav svg{
   color: darkslategrey;
 }
 
-
+div.welcome-page{
+  background-image: url("/assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 /*-------Footer---------*/
 footer{
   background-color:black;
