@@ -1,16 +1,16 @@
 @font-face{ 
   font-family: alba;
-  src:url(assets/Font/alba/ALBA____.TTF);}
+  src:url(/assets/Font/alba/ALBA____.TTF);}
   @font-face{
   font-family: navfont;
-  src:url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);}
+  src:url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);}
   @font-face {
     font-family: Para;
-    src: url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);
+    src: url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Light-trial.ttf);
   }
   @font-face {
     font-family: heading;
-    src: url(assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Bold-trial.ttf);
+    src: url(/assets/Font/arista-pro/Arista-Pro/Arista-Pro-Alternate-Bold-trial.ttf);
   }
 
 *{
@@ -19,7 +19,7 @@
 }
 body{
     margin: 0px 0px;
-    background-image: url(assets/Images/bg.jpg);
+    background-image: url(/assets/Images/bg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     overflow-y: scroll;
@@ -266,34 +266,7 @@ nav svg{
   color: darkslategrey;
 }
 
-div.welcome-page{
-  background-image: url("/assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-}
 
-.adding{
-  background-image: url("/assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
-  height: 200px;
-  width: 100%;
-  padding-bottom: 10%;
-  padding-top: 20%;
-  padding-right: 20%;
-  padding-left: 10%;
-  margin-left: -15%;
-  margin-right: auto;
-  letter-spacing: 5px;
-  font-size: 25px;
-  display:flex;
-  flex-direction: column;
-  border-radius: 10px;
-  animation: 1s appearX ease;
-}
 /*-------Footer---------*/
 footer{
   background-color:black;
@@ -326,14 +299,7 @@ footer{
   filter: invert(0) sepia(1) saturate(20) hue-rotate(93.6deg) brightness(1.2);
 }
 @media(max-width:500px){/*-------Footer---------*/
-  footer{
-    background-color: rgb(0, 0, 0);
-    height:85px;
-    position:absolute;
-    bottom:0%;
-    width: 100%;
-
-  }
+  f
   .footer-headind{
     padding-top: 10px;
     font-family:Verdana, sans-serif;
