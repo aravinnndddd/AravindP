@@ -17,7 +17,7 @@
 
 }
 div.welcome-page{
-  background-image: url("assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
+  background-image: url("/assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -44,7 +44,7 @@ div.welcome-page{
 }
 
 .adding{
-  background-image: url("assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
+  background-image: url("/assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
   height: 200px;
   width: 100%;
   padding-bottom: 10%;
