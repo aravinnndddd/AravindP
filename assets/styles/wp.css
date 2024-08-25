@@ -1,0 +1,254 @@
+/*------------Welcome-page---------------*/
+.border::after, .border::before{
+  content: '';
+  position: absolute;
+  width:180%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: conic-gradient(from var(--angle),transparent -25% ,rgb(0, 81, 255),rgb(255, 255, 255),rgb(9, 185, 255),rgb(7, 42, 118),rgb(0,81,255));
+  top:20%;
+  left:50%;
+  translate:-50% -90%;
+  z-index: -1;
+  padding: 3px;
+  animation-name:appearXrt,spin;
+  animation-duration: 1s,5s;
+  animation-iteration-count: 1,infinite;
+
+}
+div.welcome-page{
+  background-image: url("/assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.wp-h2{
+  font-family: Heading;
+  letter-spacing: 5px;
+  font-size: 35px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+
+}
+.cont{
+  z-index: 1;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.adding{
+  background-image: url("/assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
+  height: 200px;
+  width: 100%;
+  padding-bottom: 10%;
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-left: 10%;
+  margin-left: -15%;
+  margin-right: auto;
+  letter-spacing: 5px;
+  font-size: 25px;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  animation: 1s appearX ease;
+}
+
+.border {
+  position:relative
+  
+}
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits:false ;
+}
+
+@keyframes spin {
+  from{
+    --angle:0deg;
+  }
+  to{
+    --angle:360deg
+  }
+}
+.border::before{
+  filter: blur(60px);
+}
+
+.nl{
+  display:flex;
+  flex-direction: column;
+  font-size: 35px;
+  font-family: Heading;
+  color: rgb(255, 255, 255);
+}
+.tip{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  position:absolute;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  border-radius:40%;
+  top: 75vh;
+  justify-content: center;
+  align-items: center;
+  animation: 1s rotate;
+}
+.tip:hover{
+  border: 4px solid rgb(0, 255, 255);
+  transition:0.5s ease-in;
+}
+.tip:not(:hover){
+  transition:0.5s ease-in;
+}
+  .tip-content{
+  font-size: 20px;
+  position:absolute;
+  font-family: para;
+  color: white;
+  top: 85vh;
+  animation:1s appearOpacity;
+  align-items: center;
+  display: flex;
+}
+
+/* welcome page end */
+@media(max-width:500px){
+  /*------------Welcome-page---------------*/
+
+.border::after, .border::before{
+  content: '';
+  position: absolute;
+  width:280px;
+  height: 300px;
+  border-radius: 10px;
+  background-image: conic-gradient(from var(--angle),transparent -25% ,rgb(0, 81, 255),rgb(255, 255, 255),rgb(9, 185, 255),rgb(7, 42, 118),rgb(0,81,255));
+  top:20%;
+  left:50%;
+  translate:-90% -25%;
+  z-index: -1;
+  padding: 3px;
+
+}
+div#Home.welcome-page{
+  background-image: url("assets/Images/geometric-abstract-background-with-colorful-lines_551880-1610.avif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow-x: hidden;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.wp-h2{
+  font-family: Heading;
+  letter-spacing: 5px;
+  font-size: 35px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+
+}
+.cont{
+  z-index: 1;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.adding{
+  background-image: url("assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
+  height: 200px;
+  width: 100%;
+  padding-bottom: 10%;
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-left: 10%;
+  margin-left: -15%;
+  margin-right: auto;
+  letter-spacing: 5px;
+  font-size: 25px;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  animation: 1s appearX ease;
+}
+
+.border {
+  position:relative
+  
+}
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits:false ;
+}
+
+@keyframes spin {
+  from{
+    --angle:0deg;
+  }
+  to{
+    --angle:360deg
+  }
+}
+.border::before{
+  filter: blur(60px);
+}
+
+.nl{
+  display:flex;
+  flex-direction: column;
+  font-size: 35px;
+  font-family: Heading;
+  color: rgb(255, 255, 255);
+}
+.tip{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  position:absolute;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  border-radius:40%;
+  top: 75vh;
+  justify-content: center;
+  align-items: center;
+  animation: 1s rotate;
+}
+.tip:hover{
+  border: 4px solid rgb(0, 255, 255);
+  transition:0.5s ease-in;
+}
+.tip:not(:hover){
+  transition:0.5s ease-in;
+}
+  .tip-content{
+  font-size: 20px;
+  position:absolute;
+  font-family: para;
+  color: white;
+  top: 85vh;
+  animation:1s appearOpacity;
+  align-items: center;
+  display: flex;
+}
+
+/* welcome page end */
+}

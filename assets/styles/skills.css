@@ -1,0 +1,266 @@
+.skill-body{
+  height: 120vh;
+  margin: 0%;
+  overflow: hidden;
+  padding: 0%;
+  background-color: rgb(0, 0, 0);
+}
+.skills-container{
+  width: 400px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.skills-h1{
+  letter-spacing: 5px;
+  padding-top: 200px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.skills-container h2{
+  padding:10px 10px;
+  color: rgb(100, 21, 245);
+}
+.skills-list{
+  background-color: rgb(68, 68, 68);
+  border-radius:10px ;
+}
+.skills{
+ 
+  width: 400px;
+  background-color: darkgray;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+@keyframes appearskill{
+  from{
+    width: 0;
+  }
+  to{
+    transition: 1s ease;
+
+  }
+}
+.skill-1{
+  transition: 2.5s ease;
+  background-color: rgb(221, 50, 8);
+  filter:drop-shadow(4px 0px 10px rgb(221, 50, 8));
+  animation: 1s appearskill ease;
+  width: 80%;
+  
+}
+
+.skill-2{
+  transition: 2s ease;
+  background-color: rgb(35, 133, 219);
+  filter:drop-shadow(4px 0px 10px rgb(221, 50, 8));
+  animation: 1s appearskill ease;
+  width: 70%;
+}
+.skill-3{
+  transition: 1.5s ease;
+  background-color: rgb(255, 102, 0);
+  filter:drop-shadow(4px 0px 10px rgb(255, 102, 0));
+  animation: 1s appearskill ease;
+  width: 45%;
+}
+.skill-4{
+  transition: 1s ease;
+  background-color: cyan;
+  filter:drop-shadow(4px 0px 10px cyan);
+  animation: 1s appearskill ease;
+  width: 15%;
+}
+/* stars */
+img{
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+@keyframes shining {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+.star-1{
+  position:relative;
+  left: 180vh;
+  bottom: 35vh;
+  filter: drop-shadow(0 0 10px  white);
+  animation: shining 9s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-2{
+  position:relative;
+  left: 100px;
+  bottom: 45vh;
+  filter: drop-shadow(0 0 10px  #1ea4a8);
+  animation: shining 5s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-3{
+  position:relative;
+  left: 50vh;
+  bottom: 55vh;
+  filter: drop-shadow(0 8px 20px  white);
+  animation: shining 3s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-4{
+  position:relative;
+  left: -10vh;
+  bottom: -20vh;
+  filter: drop-shadow(0 0 10px  #1ea4a8);
+  animation: shining 5s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-5{
+  position:relative;
+  left: -10vh;
+  bottom: 10vh;
+  filter: drop-shadow(0 0 10px  white);
+  animation: shining 3s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-6{
+  position:relative;
+  left: 50vh;
+  bottom: 8vh;
+  filter: drop-shadow(0 0 10px  white);
+  animation: shining 6s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-7{
+  position:relative;
+  left: -10vh;
+  bottom: -10vh;
+  filter: drop-shadow(0 8px 10px #1ea4a8);
+  animation: shining 1s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-8{
+  position:relative;
+  left: 30vh;
+  bottom: -30vh;
+  filter: drop-shadow(0 5px 10px  white);
+  animation: shining 1.8s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-9{
+  position:relative;
+  left: 70vh;
+  bottom: 30vh;
+  filter: drop-shadow(0 10px 10px #1ea4a8);
+  animation: shining 8s infinite both ease;
+}
+.star-10{
+  position:relative;
+  left: 90vh;
+  bottom: 10vh;
+  filter: drop-shadow(0 0 10px  white);
+  animation: shining 2s infinite both ease;
+}
+.star-11{
+  position:relative;
+  left: 30vh;
+  bottom: -20vh;
+  filter: drop-shadow(0 0 10px  #1ea4a8);
+  animation: shining 1s infinite both cubic-bezier(0,.99,.67,-0.16);
+}
+.star-12{
+  position:relative;
+  left: 90vh;
+  bottom: -20vh;
+  filter: drop-shadow(0 0 10px  white);
+  animation: shining 8s infinite both ease;
+}
+@media(max-width:500px){
+  .skill-body{
+    height: 120vh;
+    margin: 0%;
+    overflow: hidden;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+  }
+  .skills-container{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .skills-h1{
+    letter-spacing: 5px;
+    padding-top: 200px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills-container h2{
+    padding:10px 10px;
+  }
+  .skills-list{
+    background-color: rgb(68, 68, 68);
+    border-radius:10px ;
+  }
+  .skills{
+    width: 400px;
+    background-color: darkgray;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  
+  }
+  @keyframes appearskill{
+    from{
+      width: 0;
+    }
+    to{
+      transition: 1s ease;
+  
+    }
+  }
+  .skill-1{
+    transition: 2.5s ease;
+    background-color: rgb(221, 50, 8);
+    filter:drop-shadow(4px 0px 10px rgb(221, 50, 8));
+    animation: 1s appearskill ease;
+    width: 80%;
+    
+  }
+  
+  .skill-2{
+    transition: 2s ease;
+    background-color: rgb(35, 133, 219);
+    filter:drop-shadow(4px 0px 10px rgb(221, 50, 8));
+    animation: 1s appearskill ease;
+    width: 70%;
+  }
+  .skill-3{
+    transition: 1.5s ease;
+    background-color: rgb(255, 102, 0);
+    filter:drop-shadow(4px 0px 10px rgb(255, 102, 0));
+    animation: 1s appearskill ease;
+    width: 45%;
+  }
+  .skill-4{
+    transition: 1s ease;
+    background-color: cyan;
+    filter:drop-shadow(4px 0px 10px cyan);
+    animation: 1s appearskill ease;
+    width: 20%;
+  }
+
+}
