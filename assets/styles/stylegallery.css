@@ -14,7 +14,7 @@
 }
 .slides{
   border-radius: 5%;
-  margin-top: 60px;
+  margin-top: 10px;
   height: 700px;
   width: 500px;
   margin-left: auto;
@@ -33,7 +33,7 @@
   
 }
 .slider img{
-  padding-top:50px ;
+  padding-top:20px ;
   width:max-content;
   height: 400px;
   animation: showingImg 1s  ease-in-out ;
