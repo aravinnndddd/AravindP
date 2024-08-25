@@ -276,6 +276,24 @@ div.welcome-page{
   justify-content: center;
   align-items:center;
 }
+
+.adding{
+  background-image: url("/assets/Images/creative-classic-blue-screensaver_23-2148430319.jpg");
+  height: 200px;
+  width: 100%;
+  padding-bottom: 10%;
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-left: 10%;
+  margin-left: -15%;
+  margin-right: auto;
+  letter-spacing: 5px;
+  font-size: 25px;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  animation: 1s appearX ease;
+}
 /*-------Footer---------*/
 footer{
   background-color:black;
