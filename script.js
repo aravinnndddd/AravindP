@@ -1,5 +1,4 @@
-const vdo = document.getElementById("bgVideo")
-const vdomb = document.getElementById("bgVideomb")
+const vdo = document.querySelector(".vdos")
     const pause = document.getElementById("pa-btn")
     const mute = document.getElementById("m-btn")
 
