@@ -194,7 +194,7 @@ button svg{
   
   }
   .me1{
-    translate: 0% 600px;
+    bottom:200px
     text-align: center;
     position: relative;
     background-color: rgba(39, 39, 39, 0.432);
