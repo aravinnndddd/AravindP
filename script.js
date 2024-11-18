@@ -1,15 +1,6 @@
 const audioToggle = document.getElementById('m-btn');
 const audio = document.getElementById('aud');
 
-
-// Ensure audio starts playing on load
-window.addEventListener('load', () => {
-  audio.play().catch((error) => {
-    console.log('Autoplay was prevented:', error);
-  });
-  updateAudioIcon();
-});
-
 // Play/Pause toggle functionality
 audioToggle.addEventListener('click', () => {
   audio.muted = !audio.muted;
